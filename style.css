@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+/*navbar*/ 
 header {
     background-color: white;
     left: 0;
@@ -37,7 +37,7 @@ nav a:hover {
     border-radius: 0 0 20px 20px;
 
 }
-
+/*first look*/
 .finca-video {
     position: relative; 
     width: 100%;
@@ -62,21 +62,82 @@ nav a:hover {
     font-size: 35px;
     display: block;
 }
-
-.fincas-features {
+/*FINCAS FEATURED*/
+.letrero {
+    text-align: center;
+    font-size: 40px;
+}
+ 
+.fincas-hermosas{
+    display: flex;
     background-color: #86BAA1;
     padding: 35px;
+    font-size: 25px;
     margin: 3.5rem;
-    
     box-shadow: 0 1rem 3rem grey;
 }
 
 #Villa_Libia_frente {
     box-shadow: 0 1rem 3rem white;
-    position: relative;
+    border-radius: 10%;
 }
 
-.fincas-features h1 {
-    font-size: 35px;
-    position: absolute;
+.text h1{
+    right: 0px;   
+    text-align: center;
+    font-size: 50px;
+}
+
+.text h2 {
+    text-align: center;
+    font-size: 30px;
+    position: relative;
+    top: 20%;
+}
+
+.text {
+    width: 100%;
+    background-color: #599B7C;
+    border-radius: 15px;
+    margin: 20px;   
+}
+
+.espacios-acogedores {
+    background-color: #86BAA1;
+    padding: 35px;
+    font-size: 25px;
+    margin: 3.5rem;
+    box-shadow: 0 1rem 3rem grey;
+
+}
+
+#cañadita_sala {
+    display: flex;
+    box-shadow: 0 1rem 3rem white;
+    border-radius: 10%;
+    width: 80%;
+    position: relative;
+    left: 10%;
+    max-width: 1200px;
+}
+
+.entretenimiento {
+    display: flex;
+    background-color: #86BAA1;
+    padding: 35px;
+    font-size: 25px;
+    margin: 3.5rem;
+    box-shadow: 0 1rem 3rem grey;
+}
+
+#FIALAR_juegos {
+    box-shadow: 0 1rem 3rem white;
+    border-radius: 10%;
+    position: relative;
+    left: -30px;
+}
+
+#FIALAR-text {
+    position: relative;
+    left: -30px;
 }
